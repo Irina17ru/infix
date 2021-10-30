@@ -121,9 +121,9 @@ fun checker(exp: String): Boolean {
 fun main(args: Array<String>) {
     val exp = "/ + 3 10 * + 2 3 - 3 5"
     /// + 3 10 * + 2 3 - 3 5
-    //(3 + 10) / (2 + 3) * (3 - 5)
+    //3 + 10 / 2 + 3 * 3 - 5
     //+ 2 * 2 - 2 1
-    //2 + 2 * (2 - 1)
+    //2 + 2 * 2 - 1
 
     var total: MutableList<String> = ArrayList()
     if (checker(exp)) {
